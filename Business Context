@@ -1,0 +1,30 @@
+This project was developed to simulate data analysis within a real-world customer support operation. The primary objective is to evaluate team efficiency, measure compliance with Service Level Agreements (SLA) targets, identify products generating the highest incident volumes, and analyze how resolution times directly impact Customer Satisfaction (CSAT) scores.
+
+ SQL Skills Demonstrated
+* **Database Design & DDL:** Designing relational tables with strict referential integrity using `PRIMARY KEY` and `FOREIGN KEY` constraints.
+* **Complex Multi-Table Joins:** Utilizing `INNER JOIN` to seamlessly cross-reference data across tickets, agents, and teams.
+* **Advanced Aggregations:** Constructing queries with `COUNT`, `AVG`, `SUM`, and dynamic grouping via `GROUP BY`.
+* **Time-Series Analysis:** Manipulating and formatting date/time fields using `DATE_FORMAT` to identify chronological patterns.
+* **Conditional Logic:** Implementing conditional metrics and operational KPIs using `CASE WHEN` structures.
+* **Permanent & Temporary Objects:** Developing reusable code structures using database `VIEWS` and Common Table Expressions (`CTEs`).
+* **Window Functions:** Creating advanced operational rankings partitioned by departments using `DENSE_RANK()`.
+
+ Relational Database Schema
+The database architecture consists of 5 main tables structured to ensure data integrity:
+1. `tb_teams`: Defines support tiers and their respective contract SLA targets in hours.
+2. `tb_customers`: Stores records of unique customers.
+3. `tb_products`: Contains the catalog of supported products and services.
+4. `tb_agents`: Maps customer service agents and links them to their active teams (`id_team`).
+5. `tb_tickets2`: The central Fact table containing interaction histories, creation/resolution timestamps, communication channels, and CSAT scores.
+
+---
+
+ Project Repository Structure
+
+The complete SQL scripts are organized into the following logical sections within this repository:
+ `1_schema_design.sql`: Data Definition Language (DDL) script initializing the database structure.
+ `2_data_population.sql`: Data Manipulation Language (DML) script containing mock dataset generation and inserts.
+ `3_analysis_queries.sql`: Analytical portfolio queries solving key business operations questions.
+Use o código com cuidado.
+Now that your README.md is formatted in English, would you like me to help you write a LinkedIn post or a resume summary in English to showcase this new project to potential employers?
+As respostas de IA podem incluir erros. Saiba mais
