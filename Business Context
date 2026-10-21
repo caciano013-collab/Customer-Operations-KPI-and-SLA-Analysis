@@ -1,13 +1,13 @@
 This project was developed to simulate data analysis within a real-world customer support operation. The primary objective is to evaluate team efficiency, measure compliance with Service Level Agreements (SLA) targets, identify products generating the highest incident volumes, and analyze how resolution times directly impact Customer Satisfaction (CSAT) scores.
 
  SQL Skills Demonstrated
-* **Database Design & DDL:** Designing relational tables with strict referential integrity using `PRIMARY KEY` and `FOREIGN KEY` constraints.
-* **Complex Multi-Table Joins:** Utilizing `INNER JOIN` to seamlessly cross-reference data across tickets, agents, and teams.
-* **Advanced Aggregations:** Constructing queries with `COUNT`, `AVG`, `SUM`, and dynamic grouping via `GROUP BY`.
-* **Time-Series Analysis:** Manipulating and formatting date/time fields using `DATE_FORMAT` to identify chronological patterns.
-* **Conditional Logic:** Implementing conditional metrics and operational KPIs using `CASE WHEN` structures.
-* **Permanent & Temporary Objects:** Developing reusable code structures using database `VIEWS` and Common Table Expressions (`CTEs`).
-* **Window Functions:** Creating advanced operational rankings partitioned by departments using `DENSE_RANK()`.
+Database Design & DDL: Designing relational tables with strict referential integrity using `PRIMARY KEY` and `FOREIGN KEY` constraints.
+Complex Multi-Table Joins: Utilizing `INNER JOIN` to seamlessly cross-reference data across tickets, agents, and teams.
+Advanced Aggregations: Constructing queries with `COUNT`, `AVG`, `SUM`, and dynamic grouping via `GROUP BY`.
+Time-Series Analysis: Manipulating and formatting date/time fields using `DATE_FORMAT` to identify chronological patterns.
+Conditional Logic: Implementing conditional metrics and operational KPIs using `CASE WHEN` structures.
+Permanent & Temporary Objects: Developing reusable code structures using database `VIEWS` and Common Table Expressions (`CTEs`).
+Window Functions: Creating advanced operational rankings partitioned by departments using `DENSE_RANK()`.
 
  Relational Database Schema
 The database architecture consists of 5 main tables structured to ensure data integrity:
